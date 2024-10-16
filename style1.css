@@ -1,0 +1,147 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styles */
+  body {
+    background-color: #d3f70c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    transition: background-color 0.5s;
+    background-image:url(https://img.freepik.com/free-vector/geometric-shape-background_395-2147490936.jpg)   ;
+    background-size: cover;
+  }
+  
+  /* Main container */
+  .container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s;
+  }
+  
+  /* Profile image */
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: flex;
+  }
+  
+  /* Headings and paragraph */
+  h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Link styles */
+  .links a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    align-content: center;
+  }
+  
+  .links a:hover {
+    background-color: #18b1cc;
+    
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  /* Button styling */
+  #toggle-theme {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px;
+  }
+  
+  #toggle-theme:hover {
+    background-color: #555;
+    
+  }
+  
+  /* Dark mode */
+  body.dark {
+    background-color: #141010;
+  }
+  
+  .container.dark {
+    background-color: #444;
+    color: snow;
+    font-weight: bolder;
+  }
+  .email{
+    align-items: baseline;
+  }
+
+  @media screen and (max-width: 600px) and (orientation:portrait){
+    div{
+      max-width: fit-content;
+    }
+      
+    
+  }
+  flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    
+  }
+  button{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: aqua;
+    box-shadow: #444;
+    background-color: antiquewhite;
+    text-decoration: none;
+    
+    
+  }
+  a{
+    text-decoration: none;
+
+  }
+  a:hover{
+background-color: rgb(241, 245, 239);
+  }

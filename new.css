@@ -1,0 +1,48 @@
+h1 {
+    text-align-last: center;
+    color: rgb(255, 158, 46);
+    text-decoration: underline;
+}
+
+h1+p {
+    text-decoration: overline;
+    color: hsl(192, 95%, 56%);
+    font-size: larger;
+}
+
+em,
+h4 {
+    text-indent: 0ch;
+    font-family:cursive;
+    color: rgb(255, 0, 170);
+    font-size: larger;
+}
+
+* {
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(46, 185, 18, 0.986);
+    text-align: center;
+}
+
+i {
+    color: red;
+    font-weight: 900;
+}
+
+span.professor {
+    background-color: wheat;
+    color: black;
+}
+
+.idiot {
+    font-style: oblique;
+    color: rgb(253, 133, 133);
+}
+
+p::first-line {
+    font-size: smaller;
+}
+body>div#firstline{
+    color: rgb(179, 22, 22);
+}
