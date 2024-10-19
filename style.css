@@ -114,7 +114,12 @@
     div{
       max-width: fit-content;
     }
-      
+    .links{
+      align-content: center;
+    }
+    .container{
+      opacity: 0.5;
+    }
     
   }
   flexbox{
