@@ -54,7 +54,7 @@
   
   /* Link styles */
   .links a {
-    display: block;
+    display: flex;
     margin: 10px 0;
     padding: 10px;
     background-color: #4CAF50;
