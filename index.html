@@ -1,44 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>index</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree Clone</title>
+    <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
-    <h1>namaste world ! </h1>
-    <h2> namaste world ! </h2>
-    <h3>namaste world ! </h3>
-    <h4>namaste world ! </h4>
-    <h5>namaste world ! </h5>
-    <h6>namaste world !</h6>
-    <hr>
-    <!--this is a shopping list-->
-    <ul>
-        <li>Roll on</li>
-        <li>Conditioner</li>
-        <li>Serum</li>
-        <li>Dresses</li>
-    </ul>
-    <hr>
-    <!--this is recipie of maggie-->
-    <ol type="1"> 
-        <li>First boil noodles. </li>
-        <li>Then add veggie of your choice like:- 
-            <ul>
-                <li>peas</li>
-                <li>onion</li>
-                <li>tomato</li>
-                <li>carrot</li>
-            </ul>
-        </li>
-        <li>let it rest for 2 min.</li>
-        <li> your awesome maggie is now ready.</li>
-    </ol>
-    <a href="page 2 .html" target="_blank">The page 2</a>
-    <br>
-    <a href="https://www.google.com">Google</a>
-    <img src="image.jpg" width="350" alt="This image is not available.">
-    <video src="pexels-aset-kaliev-15355524-2560x1440-60fps.mp4" width="350" controls loop muted poster="image.jpg"></video>
-    <iframe width="350" height="315" src="https://www.youtube.com/embed/H5v3kku4y6Q" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    
-</body>
+    <div class="container">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkPXjlMC0_FX8BxN7lszuqe0oPI74LkSKKSQ&s"
+        alt="Profile Image"
+        class="profile-image"
+      />
+      <h1>GDG,AITD</h1>
+      <p>Google Developer Groups On Campus Dr.AITD</p>
+      <p>LEARN | CONNECT | GROW</p>
+
+      <div class="links">
+        <a
+          href="https://gdg.community.dev/gdg-on-campus-dr-ambedkar-institute-of-technology-for-handicapped-kanpur-india/"
+          onclick="handleClick('chapter')"
+          target="_blank"
+          ><img src="book.png" width="25px" />Chapter Page</a
+        >
+        <a
+          href="https://www.instagram.com/gdg_aitd/profilecard/?igsh=MWdzOGl6MzMybWh4dg=="
+          onclick="handleClick('instagram')"
+          target="_blank"
+        >
+          <img src="instagram.png" width="20px" /> Instagram</a
+        >
+        <a
+          href="https://www.twitter.com/Gdsc_DrAith"
+          onclick="handleClick('twitter')"
+          target="_blank"
+        >
+          <img src="twitter.png " width="18px" />Twitter
+        </a>
+        <a
+          href="https://in.linkedin.com/company/gdsc-dr-aith"
+          onclick="handleClick('')"
+          target="_blank"
+          ><img src="linkedin.png" width="20px" /> LinkedIn</a
+        >
+        <a href=" mailto: akhilsrivastav@gmail.com" class="email">
+          <email
+            ><img src="gmail.webp" width="20px" />
+            <align center> Email</align></email
+          ></a
+        >
+      </div>
+
+      <button id="toggle-theme">Toggle Dark Mode</button>
+
+      <br />
+
+      <script src="script.js"></script>
+      <p><b> Events organised by GDG :-</b></p>
+      <FLEXBOX>
+        <button id="1">
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-on-campus-dr-ambedkar-institute-of-technology-for-handicapped-kanpur-india-presents-gdg-info-session-your-path-to-tech-success/"
+            class="1"
+            >INFO SESSION</a
+          >
+        </button>
+        <button id="2">
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-on-campus-dr-ambedkar-institute-of-technology-for-handicapped-kanpur-india-presents-open-source-made-easy-how-to-contribute-with-gssoc/cohost-gdg-on-campus-dr-ambedkar-institute-of-technology-for-handicapped-kanpur-india"
+            class="1"
+            >OPEN SOURCE MADE EASY</a
+          >
+        </button>
+        <button id="3">
+          <a
+            href="https://gdg.community.dev/events/details/google-gdg-on-campus-dr-ambedkar-institute-of-technology-for-handicapped-kanpur-india-presents-build-with-ai/"
+            class="1"
+            >BUILD WITH AI</a
+          >
+        </button>
+      </FLEXBOX>
+      <footer>
+         
+
+        <a href="#">FAQ | </a>
+        <a href="#">Contact Us | </a>
+        <a href="#">Terms of Use | </a>
+        <a href="#">Privacy Policy | </a>
+        <a href="#">&copy; 2024.Google</a>
+      </footer>
+    </div>
+  </body>
 </html>
