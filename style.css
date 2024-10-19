@@ -63,7 +63,7 @@
     border-radius: 8px;
     font-weight: bold;
     transition: background-color 0.3s;
-    align-content: center;
+    justify-content: center;
   }
   
   .links a:hover {
@@ -111,11 +111,8 @@
   }
 
   @media screen and (max-width: 600px) and (orientation:portrait){
-    div{
-      max-width: fit-content;
-    }
     a{
-      align-content: center;
+      justify-content: center;
       flex-grow: 2;
     }
     .container{
@@ -128,7 +125,9 @@
       
     }
     body {
-      background-size: cover;
+      background-size: 100%;
+      
+      background-image:url(https://img.freepik.com/free-vector/geometric-shape-background_395-2147490936.jpg) ;
     }
     
   }
