@@ -116,6 +116,7 @@
     }
     a{
       align-content: center;
+      flex-grow: 2;
     }
     .container{
       opacity: 0.5;
