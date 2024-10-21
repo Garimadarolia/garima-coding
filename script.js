@@ -19,4 +19,5 @@ function handleClick(twitter) {
   toggleThemeButton.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     document.querySelector('.container').classList.toggle('dark');
+      toggleThemeButton.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
   });
