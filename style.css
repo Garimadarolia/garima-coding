@@ -130,7 +130,7 @@ p.dark {
   }
 
   button {
-    max-width: fit-content;
+   /* max-width: fit-content;*/
     flex-grow: 2;
 
   }
@@ -164,6 +164,8 @@ button {
   background-color: antiquewhite;
   text-decoration: none;
   justify-content: space-around;
+  width: 300px;
+
   
 }
 
@@ -178,23 +180,23 @@ display: block;
 }
 
 button#1 {
-  display: flex;
+  display: block;
   align-items: stretch;
-  width: 700px;
+  width: 300px;
   flex-basis: 200px;
   flex: 1;
 
 }
 
 button#2 {
-  display: flex;
+  display: block;
   align-items: stretch;
   width: 100px;
   align-items: flex-end;
 }
 
 button#3 {
-  display: flex;
+  display: block;
   align-items: stretch;
   width: inherit;
 }
@@ -206,4 +208,9 @@ a {
 
 a:hover {
   background-color: rgb(241, 245, 239);
+}
+.logo{
+  border-radius: 50%;
+  width: 20px;
+
 }
