@@ -160,7 +160,7 @@ p.dark {
   }
 
 }
-@media screen and (min-width: 768px) and (min-height:768px) and (max-width:1024px) and (max-height:1282px){
+@media screen and (min-width: 768px) and (min-height:768px) {
   /*body{
     max-width: 400px;
     text-align: center;
@@ -176,10 +176,15 @@ p.dark {
   
     
     html, body {
-      overflow: hidden; /* Prevent extra scrolling */
+       /* Prevent extra scrolling */
       height: 100%;
     }
-  
+  .links a{
+    padding:30px ;
+    margin: 20px;
+        height: max-content;
+        font-size: x-large
+  }
     .container {
       width: 90%;            /* Maximize container size on mobile */
       padding: 30px;         /* Reduce padding for mobile */
