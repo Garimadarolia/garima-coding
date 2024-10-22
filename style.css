@@ -55,22 +55,26 @@ p {
 /* Link styles */
 .links a {
   display: flex;
-  margin: 10px 0;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
+  margin: 10px ;
+  padding: 0px;
+  background-color: antiquewhite;
+  color:black;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 50px;
   font-weight: bold;
   transition: background-color 0.3s;
   height:70px ;
   align-items: center;
   flex-direction: column;
+  border-color: aqua;
+  border: solid aqua;
+  box-shadow: 4px -5px 1px #444;
 }
 
 .links a:hover {
-  background-color: #18b1cc;
-
+  background-color: rgb(184, 236, 184);
+  transform: scale(1.10);
+background-position: right center;
 }
 
 /* Footer */
@@ -150,10 +154,47 @@ p.dark {
   body {
     background-size: 100%;
 
-    background-image: url(https://img.freepik.com/free-vector/geometric-shape-background_395-2147490936.jpg);
+    background-image: url(https://img.freepik.com/free-vector/geometric-shape-background_395-2147490936.jpg) ;
+    
+    
   }
 
 }
+@media screen and (min-width: 768px) and (min-height:768px) and (max-width:1024px) and (max-height:1282px){
+  /*body{
+    max-width: 400px;
+    text-align: center;
+    
+
+  }
+  .container{
+    min-width: 100%;
+    max-height: fit-content;*/
+    body {
+      padding: 30px; /* Increase padding for desktops */
+    }
+  
+    .container {
+      width: 70%;           /* Make container bigger */
+      max-width: 1000px;    /* Limit container size */
+      padding: 50px;        /* Add more padding for better spacing */
+    }
+  
+    h1 {
+      font-size: 36px;      /* Increase heading size */
+    }
+  
+    p {
+      font-size: bolder;   
+      font-weight: bolder;   /* Larger paragraph text */
+    }
+  
+    .links a {
+      font-size: 20px;      /* Increase button size */
+      padding: 0px;        /* Add more padding */
+    }
+  }
+
 
 flex-box {
   display: block;
@@ -171,8 +212,8 @@ button {
   font-weight: bolder;
   font-style: normal;
   font-family: 'Times New Roman', Times, serif;
-  border-color: aqua;
-  box-shadow: #444;
+  
+  box-shadow: #444;border-color: aqua;
   background-color: antiquewhite;
   text-decoration: none;
   justify-content: space-around;
