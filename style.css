@@ -177,7 +177,8 @@ p.dark {
     
     html, body {
        /* Prevent extra scrolling */
-      height: 100%;
+      min-height: 100%;
+      display: grid;
     }
   .links a{
     padding:30px ;
