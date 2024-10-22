@@ -169,31 +169,33 @@ p.dark {
   }
   .container{
     min-width: 100%;
-    max-height: fit-content;*/
+    max-height: fit-content;
     body {
       padding: 30px; /* Increase padding for desktops */
+    
+  
+    
+    html, body {
+      overflow: hidden; /* Prevent extra scrolling */
+      height: 100%;
     }
   
     .container {
-      width: 70%;           /* Make container bigger */
-      max-width: 1000px;    /* Limit container size */
-      padding: 50px;        /* Add more padding for better spacing */
+      width: 90%;            /* Maximize container size on mobile */
+      padding: 30px;         /* Reduce padding for mobile */
+      max-width: 1200px;     /* Still large like desktop */
+      flex-basis: max-content;
+        position: relative;
     }
   
     h1 {
-      font-size: 36px;      /* Increase heading size */
+      font-size: xx-large;       /* Slightly smaller on mobile */
     }
   
     p {
-      font-size: bolder;   
-      font-weight: bolder;   /* Larger paragraph text */
-    }
-  
-    .links a {
-      font-size: 20px;      /* Increase button size */
-      padding: 0px;        /* Add more padding */
-    }
-  }
+      font-size: large;
+}
+}
 
 
 flex-box {
